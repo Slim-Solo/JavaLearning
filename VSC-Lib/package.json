@@ -1,0 +1,49 @@
+{
+  "name": "asd",
+  "version": "1.0.2",
+  "description": "Labas rytas, Lietuva! Ačiū! Ką tu? Ką vakare?",
+  "main": "index.js",
+  "scripts": {
+    "multiplycw": "node --watch ./codewars/multiplycw.js",
+    "digit-count": "node --watch ./text/task/digit-count.js",
+    "nd-funkcijos": "node --watch ./text/task/nd-funkcijos.js",
+    "object": "node --watch ./js/object.js",
+    "interval-count": "node --watch ./text/task/interval-count.js",
+    "string-reverse": "node --watch ./text/task/string-reverse.js",
+    "for": "node --watch ./js/for.js",
+    "multi-table": "node --watch ./js/multi-table.js",
+    "NB1": "node --watch ./text/NB1.js",
+    "NB2": "node --watch ./text/NB2.js",
+    "NB3": "node --watch ./text/NB3.js",
+    "marks-average": "node --watch ./text/marks-average.js",
+    "multiply": "node --watch ./js/multiply",
+    "math": "node --watch ./js/math",
+    "typeof": "node --watch ./js/typeof.js",
+    "text-size": "node --watch ./text/text-size.js",
+    "adult": "node --watch ./text/adult.js",
+    "array": "node --watch ./js/array.js",
+    "namudarbai": "node --watch ./js/namudarbai.js",
+    "samoucka": "node --watch ./js/0-samoucka.js",
+    "javascriptmini": "node --watch ./js/7-javascriptmini.js",
+    "if": "node --watch ./js/6-if.js",
+    "boolean": "node --watch ./js/5-boolean.js",
+    "funkcion": "node --watch ./js/4-funkcion.js",
+    "string": "node --watch ./js/2-string.js",
+    "string2": "node --watch ./js/2-string2.js",
+    "number": "node --watch ./js/1-number.js",
+    "index": "node --watch ./index.js",
+    "js": "node ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Slim-Solo (https://github.com/Slim-Solo)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Slim-Solo/LearnCoding.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Slim-Solo/LearnCoding/issues"
+  },
+  "homepage": "https://github.com/Slim-Solo/LearnCoding#readme"
+}
