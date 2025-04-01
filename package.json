@@ -15,6 +15,7 @@
     "NB1": "node --watch ./text/NB1.js",
     "NB2": "node --watch ./text/NB2.js",
     "NB3": "node --watch ./text/NB3.js",
+    "ND": "node --watch ./text/ND.js",
     "marks-average": "node --watch ./text/marks-average.js",
     "multiply": "node --watch ./js/multiply",
     "math": "node --watch ./js/math",
