@@ -18,6 +18,7 @@
     "marks-average": "node --watch ./text/marks-average.js",
     "multiply": "node --watch ./js/multiply",
     "math": "node --watch ./js/math",
+    "method-string": "node --watch ./VSC-Lib/js/method-string",
     "typeof": "node --watch ./js/typeof.js",
     "text-size": "node --watch ./text/text-size.js",
     "adult": "node --watch ./text/adult.js",
