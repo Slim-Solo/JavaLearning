@@ -12,16 +12,16 @@ return toliausiasMiestas;
 */
 
 const miestai = [
-    { pavadinimas: 'Kaunas', atstumas: 89.6 },
-    { pavadinimas: 'Klaipėda', atstumas: 307.3 },
-    { pavadinimas: 'Šiauliai', atstumas: 213.5 },
-    { pavadinimas: 'Panevėžys', atstumas: 135.7 },
-    { pavadinimas: 'Alytus', atstumas: 110.4 },
-    { pavadinimas: 'Marijampolė', atstumas: 144.9 },
-    { pavadinimas: 'Utena', atstumas: 96.3 },
-    { pavadinimas: 'Telšiai', atstumas: 265.8 },
-    { pavadinimas: 'Tauragė', atstumas: 209.5 },
-    { pavadinimas: 'Mažeikiai', atstumas: 285.7 },
+    ['Kaunas', 89.6]
+    ['Klaipėda', 307.3],
+    ['Šiauliai', 213.5],
+    ['Panevėžys', 135.7],
+    ['Alytus', 110.4],
+    ['Marijampolė', 144.9],
+    ['Utena', 96.3]
+    ['Telšiai', 265.8],
+    ['Tauragė', 209.5],
+    ['Mažeikiai', 285.7],
 ];
 
 
