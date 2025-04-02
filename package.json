@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "multiplycw": "node --watch ./codewars/multiplycw.js",
+    "test1": "node --watch ./codewars/test1.js",
     "digit-count": "node --watch ./text/task/digit-count.js",
     "nd-funkcijos": "node --watch ./text/task/nd-funkcijos.js",
     "object": "node --watch ./js/object.js",
