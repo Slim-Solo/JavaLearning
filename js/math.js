@@ -144,6 +144,15 @@ for (let i = 0; i < 1000000; i++) {
 
 console.log(count3, count7);
 
+function generate(length) {
+    let chromosome = '';
+    for (let i = 0; i < length; i++) {
+        chromosome += Math.random() < 0.5 ? '0' : '1';
+    }
+    return chromosome;
+}
+
+/*
 function randomNumber(min, max) {
     return Math.floor(Math.random() * (max - min + 1) + min);
 }
@@ -165,3 +174,4 @@ for (let i = 0; i < 1000000; i++) {
 }
 
 console.log(counts2);
+*/

@@ -30,3 +30,28 @@ var countSheep = function (num){
     }
 return text
 }
+
+
+const (1,   2, "-",              -1);
+const (1,   2, "+",               3);
+const (3,   5, "*",              15);
+const (6,   2, "/",               3);
+const (6,   2, "$", "unknown value");
+const (6, "h", "*", "unknown value");
+
+function calculator(a, b, sign) {
+  const result = `${a} ${sign} ${b}`
+  for (i=0; i<calculator.length; i++)
+  {
+  if (typeof a !== 'number' || typeof b !== 'number') {
+        return "unknown value";
+    }
+
+    if (sign !== '+' && sign !== '-' && sign !== '*' && sign !== '/') {
+        return "unknown value";
+    }
+    console.log(result)
+  };
+} 
+
+
