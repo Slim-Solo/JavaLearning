@@ -24,7 +24,7 @@ console.log('--', text.at(-2));
 console.log('--', text.at(-3));
 
 // includes
-console.clear();
+//console.clear();
 console.log('\nincludes');
 console.log('Vasara'.includes('V'));
 console.log('Vasara'.includes('v'));
@@ -44,7 +44,7 @@ console.log('Bepasikulversciaudamasis'.includes('cauda'));
 console.log('Bepasikulversciaudamasis'.includes('Bepasikulversciaudamasis'));
 
 // startsWith
-console.clear();
+//console.clear();
 console.log('\nstartsWith');
 console.log('Pomidoras'.startsWith('a'));
 console.log('Pomidoras'.startsWith('p'));
@@ -57,7 +57,7 @@ console.log('Pomidoras'.startsWith('doras'));
 console.log(' Pomidoras'.startsWith(' Pom'));
 
 // endsWith
-console.clear();
+//console.clear();
 console.log('\nendsWith');
 console.log('Pomidoras'.endsWith('a'));
 console.log('Pomidoras'.endsWith('Pom'));
@@ -70,7 +70,7 @@ console.log('Pomidoras'.endsWith(' Pomidoras'));
 console.log(' Pomidoras'.endsWith(' Pomidoras'));
 
 // indexOf
-console.clear();
+//console.clear();
 console.log('\nindexOf');
 //           012345678
 console.log('Pomidoras'.indexOf('a'));
@@ -101,7 +101,7 @@ console.log(k.indexOf('e'));
 console.log(k.indexOf('e', k.indexOf('e') + 1));
 
 // repeat
-console.clear();
+//console.clear();
 console.log('\nrepeat');
 console.log('a');
 
@@ -124,7 +124,7 @@ console.log(stringRepeat('rikiki-', 3.9999999));
 console.log(stringRepeat('apči ', 4));
 
 // replace
-console.clear();
+//console.clear();
 console.log('\nreplace');
 
 const summer = 'vasara'.replace('a', '-');
@@ -153,7 +153,7 @@ const classmates = template2.replace('V4', 'Ona').replace('V1', 'Jonas').replace
 console.log(classmates);
 
 // replaceAll
-console.clear();
+//console.clear();
 console.log('\nreplaceAll');
 
 console.log('vasara');
@@ -174,7 +174,7 @@ const hiNormalSize = hi.replaceAll(' ', '').length;
 console.log(hiNormalSize);
 
 // toUpperCase
-console.clear();
+//console.clear();
 console.log('\ntoUpperCase');
 
 console.log('labas'.toUpperCase());
@@ -183,7 +183,7 @@ console.log('LABAS'.toUpperCase());
 console.log('5rg84 sf1s25r; 4s52af548sd'.toUpperCase());
 
 // toLowerCase
-console.clear();
+////console.clear();
 console.log('\ntoLowerCase');
 
 console.log('LABAS'.toLowerCase());
@@ -191,7 +191,7 @@ console.log('laBAS'.toLowerCase());
 console.log('A5RGTS 841G5FF26; A5S4GS5G4'.toLowerCase());
 
 // slice
-console.clear();
+////console.clear();
 console.log('\nslice');
 
 console.log('pomidoras'.slice());
@@ -214,7 +214,7 @@ console.log('pomidoras'.slice(-4));
 console.log('pomidoras'.slice(-6, -2));
 
 // trim
-console.clear();
+////console.clear();
 console.log('\ntrim');
 
 console.log(`"${'pomidoras'.trim()}"`);
@@ -227,7 +227,7 @@ console.log(`"${'   labas    rytas    Lietuva    '.trimEnd()}"`);
 console.log(`"${'   labas    rytas    Lietuva    '.trimStart()}"`);
 
 // split
-console.clear();
+////console.clear();
 console.log('\nsplit');
 
 const t1 = 'zodis';
@@ -271,7 +271,7 @@ console.log('pomidoras'.split('dor'));
 console.log('ananasas'.split('na'));
 
 // charCodeAt
-console.clear();
+////console.clear();
 console.log('\ncharCodeAt');
 
 console.log('A'.charCodeAt(0));

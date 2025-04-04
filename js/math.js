@@ -7,12 +7,16 @@ console.log('\nabs');
 console.log(Math.abs(5));
 console.log(Math.abs(-5));
 
+console.log('-------------');
+
 // cbrt
 console.log('\ncbrt');
 console.log(Math.cbrt(8));
 console.log(Math.cbrt(27));
 console.log(Math.cbrt(64));
 console.log(Math.cbrt(125));
+
+console.log('-------------');
 
 // ceil
 console.log('\nceil');
@@ -21,6 +25,8 @@ console.log(Math.ceil(8.9));
 console.log(Math.ceil(8.5));
 console.log(Math.ceil(8.0000001));
 
+console.log('-------------');
+
 // floor
 console.log('\nfloor');
 console.log(Math.floor(8));
@@ -28,6 +34,8 @@ console.log(Math.floor(8.9));
 console.log(Math.floor(8.5));
 console.log(Math.floor(8.2));
 console.log(Math.floor(8.99999999999999));
+
+console.log('-------------');
 
 // round
 console.log('\nround');
@@ -39,6 +47,8 @@ console.log(Math.round(8.5));
 console.log(Math.round(8.9));
 console.log(Math.round(8.9999));
 
+console.log('-------------');
+
 // trunc
 console.log('\ntrunc');
 console.log(Math.trunc(8));
@@ -48,11 +58,15 @@ console.log(Math.trunc(4.0001));
 console.log(Math.trunc(4.999999999));
 console.log(Math.trunc(-4.999999999));
 
+console.log('-------------');
+
 // hypot
 console.log('\nhypot');
 console.log(Math.hypot(3, 4));
 console.log(Math.hypot(4, 5));
 console.log(Math.hypot(4, 5, 6));
+
+console.log('-------------');
 
 // max
 console.log('\nmax');
@@ -61,12 +75,16 @@ console.log(Math.max(-10, 2, 8, 4, 6));
 console.log(Math.max('asfd', -10, 2, 8, 4, 6));
 console.log(Math.max(-10, 2, 8, 4, 6, 'asfd'));
 
+console.log('-------------');
+
 // min
 console.log('\nmin');
 console.log(Math.min(10, 2, 8, 4, 6));
 console.log(Math.min(-10, 2, 8, 4, 6));
 console.log(Math.min('asfd', -10, 2, 8, 4, 6));
 console.log(Math.min(-10, 2, 8, 4, 6, 'asfd'));
+
+console.log('-------------');
 
 // pow
 console.log('\npow');
@@ -82,6 +100,8 @@ console.log(Math.pow(2, 8), 2 ** 8);
 console.log(Math.pow(2, 9), 2 ** 9);
 console.log(Math.pow(2, 10), 2 ** 10);
 
+console.log('-------------');
+
 // sign
 console.log('\nsign');
 console.log(Math.sign(8));
@@ -89,6 +109,8 @@ console.log(Math.sign(-8));
 console.log(Math.sign(0));
 console.log(Math.sign(Infinity));
 console.log(Math.sign(-Infinity));
+
+console.log('-------------');
 
 // sqrt
 console.log('\nsqrt');
@@ -98,7 +120,9 @@ console.log(Math.sqrt(81), 9 ** 0.5);
 console.log(Math.sqrt(2), 2 ** 0.5);
 console.log(Math.sqrt(13), 13 ** 0.5);
 
-console.clear();
+console.log('-------------');
+
+//console.clear();
 
 // random [0..1)
 console.log('\nrandom');
