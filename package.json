@@ -17,6 +17,8 @@
     "interval-count": "node --watch ./text/task/interval-count.js",
     "string-reverse": "node --watch ./text/task/string-reverse.js",
     "for": "node --watch ./js/for.js",
+    "for-in": "node --watch ./js/for-in.js",
+    "for-of": "node --watch ./js/for-of.js",
     "method-number": "node --watch ./js/method-number.js",
     "multi-table": "node --watch ./js/multi-table.js",
     "NB1": "node --watch ./text/NB1.js",
