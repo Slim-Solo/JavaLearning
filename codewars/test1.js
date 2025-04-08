@@ -31,7 +31,7 @@ var countSheep = function (num){
 return text
 }
 
-
+/*
 const (1,   2, "-",              -1);
 const (1,   2, "+",               3);
 const (3,   5, "*",              15);
@@ -53,5 +53,32 @@ function calculator(a, b, sign) {
     console.log(result)
   };
 } 
+*/
+
+String.prototype.digit = function() {
+  let n = String.digit
+  if (n === 'number') {
+    return true;
+    }
+    if (n === 'string')
+  return false;
+}
+
+/*
+String.prototype.digit = function() {
+  let n = String.digit
+  if (n === 'number' && n === 'string') {
+    return true;
+  }
+  return false;
+}
 
 
+
+      
+if (n !== 'number')
+  {
+       return false
+    }
+  }
+*/

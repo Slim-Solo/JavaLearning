@@ -141,3 +141,4 @@ console.log(3.14.toFixed(5));
 console.log(3.14.toFixed(6));
 
 console.log(isFinite(5), Number.isFinite(5));
+
