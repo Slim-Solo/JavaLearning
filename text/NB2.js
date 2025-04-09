@@ -135,3 +135,27 @@ function intervalCount(start, end, divider)
     }
 
 }
+
+
+
+
+function finalGrade (exam, projects) {
+    if (exam > 90 || projects === 10)
+      {
+        return grade = '100'
+      }
+    if (exam > 75 && projects >= 5)
+      {
+        return grade = '90'
+      }
+    if (exam > 50 && projects >= 2)
+      {
+        return grade = '75'
+      }
+    if (exam < 0 && projects < 0)
+      {
+        return grade = '0'
+      }
+    console.log(grade)
+  }
+  

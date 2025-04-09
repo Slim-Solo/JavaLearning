@@ -43,6 +43,8 @@
     "method-array": "node --watch ./js/method-array.js",
     "string2": "node --watch ./js/2-string2.js",
     "number": "node --watch ./js/1-number.js",
+    "sort": "node --watch ./js/1-sort.js",
+    "reduce": "node --watch ./js/1-reduce.js",
     "index": "node --watch ./index.js",
     "js": "node ./index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
