@@ -109,7 +109,7 @@ const symbol = 'labas';
 const megaSybmol = symbol.repeat(3);
 console.log(symbol);
 console.log(megaSybmol);
-
+console.log('---------------------------------------------------');
 function stringRepeat(text, count) {
     let result = '';
 
