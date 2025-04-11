@@ -8,7 +8,7 @@
     "testing": "node --watch ./codewars/testing.js",
     "method-array1": "node --watch ./js/method-array1.js",
     "arrow": "node --watch ./js/arrow.js",
-    "test1": "node --watch ./js/test1.js",
+    "test1": "node --watch ./codewars/test1.js",
     "digit-count": "node --watch ./text/task/digit-count.js",
     "nd-funkcijos": "node --watch ./text/task/nd-funkcijos.js",
     "names-split": "node --watch ./text/task/names-split.js",

@@ -142,6 +142,8 @@ console.log(h);
 
 console.log('---------------------------------------------------');
 
+console.log('MAP');
+
 // MAP
 const k = [10, 2, 8, 4, 6];
 const k2 = [];

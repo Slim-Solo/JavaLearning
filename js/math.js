@@ -152,7 +152,6 @@ function generate(length) {
     return chromosome;
 }
 
-/*
 function randomNumber(min, max) {
     return Math.floor(Math.random() * (max - min + 1) + min);
 }
@@ -174,4 +173,3 @@ for (let i = 0; i < 1000000; i++) {
 }
 
 console.log(counts2);
-*/

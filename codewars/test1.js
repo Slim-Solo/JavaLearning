@@ -82,3 +82,33 @@ if (n !== 'number')
     }
   }
 */
+console.log('------------------------------------------------------');
+
+/*1. užd. Padarykite funkciją, kuriai perdavus vieną iš (akmuo, popierius, šulinys) reikšmių,
+kompiuteris su jumi sužaistų vaskiči raundą ir išvestų rezultatą į console. Kompiuterio
+pasirinkimai turi būti atsitiktiniai.*/
+
+function game(playerChoice) {
+  const choices = ['akmuo', 'popierius', 'sulinys'];
+  const computerChoice = choices[Math.floor(Math.random() * choices.length)];
+  
+  if (playerChoice === computerChoice) {
+    return `Lygiosios! Abu pasirinkote ${playerChoice}.`;
+  } else if (
+    (playerChoice === 'akmuo' && computerChoice === 'sulinys') ||
+    (playerChoice === 'popierius' && computerChoice === 'akmuo') ||
+    (playerChoice === 'sulinys' && computerChoice === 'popierius')
+  ) {
+    return `Laimėjote! Jūs pasirinkote ${playerChoice}, kompiuteris pasirinko ${computerChoice}.`;
+  } else {
+    return `Pralaimėjote! Jūs pasirinkote ${playerChoice}, kompiuteris pasirinko ${computerChoice}.`;
+  }
+}
+console.log(game('akmuo'));
+console.log(game('popierius'));
+console.log(game('sulinys'));
+
+/*2 užd Parašykite funkcija, kuri parodytų kiek žmonių reikia norint pakelti tam tikro svorio
+krovinį, kai vienas žmogus gali pakelti x kg. Pvz: 10kg svorį turi kelti 5 žmonės, jei vienas jų gali
+pakelti 2.4 kg*/
+
