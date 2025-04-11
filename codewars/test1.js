@@ -112,3 +112,94 @@ console.log(game('sulinys'));
 krovinį, kai vienas žmogus gali pakelti x kg. Pvz: 10kg svorį turi kelti 5 žmonės, jei vienas jų gali
 pakelti 2.4 kg*/
 
+function calculatePeople(weight, capacity) {
+  const people = Math.ceil(weight / capacity);
+  return people;
+}
+console.log(calculatePeople(10, 2.4)); // 5
+console.log(calculatePeople(100, 20)); // 5
+
+/*Parašykite funkciją, kuri išvestų skaičiaus faktorialą*/
+
+function factorial(n) {
+  if (n < 0) return undefined; // Faktorialas nėra apibrėžtas neigiamiems skaičiams
+  if (n === 0 || n === 1) return 1; // 0! = 1 ir 1! = 1
+  return n * factorial(n - 1); // Rekursyvus skaičiavimas
+}
+
+console.log(factorial(5));
+console.log(factorial(0));
+
+/*Parašykite funkciją, kuri apskaičiuotų kiek kartų tam tikra raidė pasikartojo žodyje arba sakinyje*/
+function countLetter(word, letter) {
+  let count = 0 
+  for (let i=0; i<word.length; i++)
+  {
+    if (word[i].length === letter.length)
+    {
+      count++
+    }
+  }
+  return count
+}
+
+console.log(countLetter('labas', 'a'));
+console.log(countLetter('labas', 'l'));
+
+/*Padarykite funkciją, kuri grąžintų visus skaičiaus 3 kartotinius nuo 1 iki 50*/
+function multiplesOfThree() {
+  const multiples = [];
+  for (let i = 1; i <= 50; i++) {
+    if (i % 3 === 0) {
+      multiples.push(i);
+    }
+  }
+  return multiples;
+}
+
+console.log(multiplesOfThree());
+console.log(multiplesOfThree().length);
+
+/*Parašykite funkciją, kuri patikrintų ar duotas žodis yra palindromas*/
+function isPolidrome() {
+  const word = 'dovod'
+  const reversedWord = word.split('').reverse().join('');
+  return word === reversedWord;
+}
+
+console.log(isPolidrome('dovod'));
+console.log(isPolidrome('labas'));
+
+/*Parašyk funkciją, kuri suskaičiuoja kiek balsių yra žodyje*/
+function countVowels(word) {
+  const vowels = 'aeiouyąčęėįšųūž';
+  let count = 0;
+  for (let i = 0; i < word.length; i++) {
+    if (vowels.includes(word[i].toLowerCase())) {
+      count++;
+    }
+  }
+  return count;
+}
+
+console.log(countVowels('labas'));
+console.log(countVowels('asderqsxcdfghjkl'));
+
+/*Sukurk funkciją, kuri visus tarpus tekste pakeičia pabraukimais (underscore)*/
+function replaceSpacesWithUnderscores(text) {
+  return text.replace(/ /g, '_');
+}
+
+console.log(replaceSpacesWithUnderscores('labas rytas'));
+console.log(replaceSpacesWithUnderscores('labas rytas visiems'));
+
+/*Sukurk funkciją, kuri padvigubina visus skaičius masyve*/
+function numbers(num) {
+  const double = num.map(n => n * 2)
+  return double 
+}
+
+console.log(numbers([1, 2, 3, 4]));
+console.log(numbers([10, 20, 30, 40]));
+
+/*Sukurk funkciją, kuri suranda ilgiausią žodį sakinyje*/
