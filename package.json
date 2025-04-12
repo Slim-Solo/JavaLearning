@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "multiplycw": "node --watch ./codewars/multiplycw.js",
+    "answers": "node --watch ./codewars/answers.js",
     "testing": "node --watch ./codewars/testing.js",
     "method-array1": "node --watch ./js/method-array1.js",
     "arrow": "node --watch ./js/arrow.js",
