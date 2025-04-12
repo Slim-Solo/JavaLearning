@@ -203,3 +203,30 @@ console.log(numbers([1, 2, 3, 4]));
 console.log(numbers([10, 20, 30, 40]));
 
 /*Sukurk funkciją, kuri suranda ilgiausią žodį sakinyje*/
+
+function findLongestWord(sentence) {
+  const words = sentence.split(' ');
+  let longestWord = '';
+  
+  for (const word of words) {
+    if (word.length > longestWord.length) {
+      longestWord = word;
+    }
+  }
+  
+  return longestWord;
+}
+
+console.log(findLongestWord('labas rytas visiems'));
+console.log(findLongestWord('labas rytas visiems, kaip studentams sekasi?'));
+
+/*Funkcija, kuri išrikiuoja žodžius pagal ilgį didėjančia tvarka*/
+
+function sortWordsByLength(sentence) {
+  const words = sentence.split(' ');
+  return words.sort((a, b) => a.length - b.length);
+}
+
+console.log(sortWordsByLength('labas rytas visiems'));
+console.log(sortWordsByLength('labas rytas visiems, kaip studentams sekasi?'));
+
