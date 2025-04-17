@@ -28,6 +28,7 @@ const findShort = (s) => s
 console.log('---------------------------------------------------------------------------');
 
 /*Complete the function that accepts a string parameter, and reverses each word in the string. All spaces in the string should be retained.*/
+/*Выполните функцию, которая принимает строковый параметр и меняет местами каждое слово в строке. Все пробелы в строке должны быть сохранены.*/
 
 function reverseWords(str) {    
     return str.split(' ').map(word => word.split('').reverse().join('')).join(' ');
