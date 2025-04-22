@@ -62,6 +62,8 @@ const date = userNumber + 5;
 
 console.log(date);
 
+console.log('\nparseInt\n');
+
 console.log(parseInt('65'));
 console.log(parseInt('65.314'));
 console.log(parseInt('-65'));

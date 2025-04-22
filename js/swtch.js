@@ -140,4 +140,4 @@ switch (stop) {
     case 'Geniu 2': console.log('Geniu 2');
     case 'Parko 2': console.log('Parko 2');
         break;
-}
+}   
