@@ -52,28 +52,15 @@ function booleanToString(b) {
 
 
 */
+///////////////// Факториал числа с помощью рекурсии /////////////////
 
-function testit(act,s) {
-    for (let i=0; i<act.length; i++){
-      if (act[i] == "run"){
-        s = s.replace(/_/,"/")
-      } else if (act[i] == "jump"){
-        s = s.replace(/_/,"x")
-      } else if (act[i] == "run" && act[i+1] == "jump"){
-        s = s.replace(/_/,"/")
-      } else if (act[i] == "jump" && act[i+1] == "run"){
-        s = s.replace(/_/,"x")
-      } else if (act[i] == "run" && act[i+1] == "run"){
-        s = s.replace(/_/,"/")
-    }
-  return s
-    }
+function factorialRecursive(n) {
+  if (n < 0) return "Факториал отрицательного числа не определён";
+  if (n === 0 || n === 1) return 1;
+  return n * factorialRecursive(n - 1);
 }
 
-
-console.log(["run","jump","run","jump","run"], "_|_|_", "_|_|_", "")
-console.log(["run","jump","run","run","run"], "_|_|_", "_|_/_", "")
-console.log(["run","run","run","run","run"], "_|_|_", "_/_/_", "")
-console.log(["jump","jump","jump","jump","jump"], "_|_|_", "x|x|x", "")
-console.log(["jump","run","jump","run","jump"], "_|_|_", "x/x/x", "")
-
+function numberOfLettersInString(str) {
+  if (typeof str !== "string") return "Параметр не является строкой";
+  return str.length;
+}
