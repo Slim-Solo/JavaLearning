@@ -64,3 +64,26 @@ function numberOfLettersInString(str) {
   if (typeof str !== "string") return "Параметр не является строкой";
   return str.length;
 }
+
+
+/*
+
+
+*/
+
+
+
+function areYouPlayingBanjo(name) {
+    // Implement me
+    if (name[0].toLowerCase() === 'r') {
+        return name + " plays banjo";
+    } else {
+        return name + " does not play banjo";
+    }
+}
+
+assert.strictEqual(areYouPlayingBanjo("Adam"), "Adam does not play banjo");
+assert.strictEqual(areYouPlayingBanjo("Paul"), "Paul does not play banjo");
+assert.strictEqual(areYouPlayingBanjo("Ringo"), "Ringo plays banjo");
+assert.strictEqual(areYouPlayingBanjo("bravo"), "bravo does not play banjo");
+assert.strictEqual(areYouPlayingBanjo("rolf"), "rolf plays banjo");
